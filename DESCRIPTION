@@ -1,0 +1,19 @@
+Package: pkg4albacete
+Type: Package
+Date: 2016-10-10
+Title: Package para el curso Econometría I de GECO
+Version: 0.1.0
+Author: Pedro J. Pérez <pjperez@uv.es>
+Maintainer: Pedro J. Pérez <pjperez@uv.es>
+Description: Este package se utiliza como apoyo docente al curso
+    de Econometr?a de la Licenciatura de GECO en la UV
+Imports:
+    dplyr,
+    magrittr
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 5.0.1.9000
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr
